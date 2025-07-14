@@ -1,0 +1,33 @@
+.custom-alert {
+    --background: rgba(255, 255, 255, 0.977);
+    --border-radius: 20px;
+    --color: #333333;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.custom-alert .alert-button {
+    color: #0070f3;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.custom-alert .alert-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00336e;
+    text-align: center;
+}
+
+.custom-loading-alert {
+    --background: rgba(255, 255, 255, 0.916);
+    --spinner-color: rgb(154, 128, 128);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+}
